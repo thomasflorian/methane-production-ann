@@ -1,2 +1,3 @@
-# methane-production-ann
-Predicting anaerobic digester methane production rate with the microbial community composition using deep neural network modelling techniques. 
+# Predicting anaerobic digester methane production rate with the microbial community composition using deep neural network modelling techniques.
+
+A one-dimensional convolutional neural network (CNN) is trained with raw count data from a microbial community composition dataset to predict the methane production rate of a given sample. The dataset contains data on 489 microbes (features) across 149 sites (samples). Layer-wise relevance propagation (LRP) was used to identify the microbes that are important for the model’s prediction by running a backward pass in the neural network. A mean relevance score can be calculated for each microbe, allowing them to be ranked. Feature reduction techinques using the mean relevance score have proved to produce performance improvements in the model; however, collecting additional data samples could result in a significant improvement of the CNN’s predictive power and reduce the need for feature reduction.
