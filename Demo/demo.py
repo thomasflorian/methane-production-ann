@@ -4,7 +4,7 @@
 import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('--test_size', type=float, help='Input the proportion of the dataset to include in the test split.', default=0.15)
-parser.add_argument('--random_state', type=int, help='Input a seed for random selection of the test set.', default=None)
+parser.add_argument('--random_state', type=int, help='Input a seed for random selection of the test set.', default=0)
 opt = parser.parse_args()
 import pandas as pd
 import numpy as np
