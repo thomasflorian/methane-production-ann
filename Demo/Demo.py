@@ -6,8 +6,8 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('--num_folds', type=int, help='Input the number of folds for cross validation.', default=None)
 parser.add_argument('--num_features', type=int, help='Input the number features to be selected.', default=None)
-parser.add_argument('--X_path', type=str, help='Input the path to the features data csv file.', default="Demo_Data/X.csv")
-parser.add_argument('--y_path', type=str, help='Input the path to the features data csv file.', default="Demo_Data/y.csv")
+parser.add_argument('--X_path', type=str, help='Input the path to the features data csv file.', default="X.csv")
+parser.add_argument('--y_path', type=str, help='Input the path to the features data csv file.', default="y.csv")
 parser.add_argument('--file_output', type=bool, help='Output to file', default=False)
 
 opt = parser.parse_args()
@@ -148,6 +148,7 @@ for fold in range(num_folds):
 
     # Feature selection using Layerwise Relevance Propegation (LRP)
     model = build_model((X_train.shape[1],1))
+    model.fit(np.expand_dims(X_train.values, axis=2), y_train, batch_size=32, epochs=150, verbose=0)
     # Sort features by LRP Relevance Score
     analyzer = inn.create_analyzer("lrp.z_plus_fast", model)
     # Perform backwards pass through trained neural network to generate relevance scores
@@ -168,7 +169,7 @@ for fold in range(num_folds):
 
     # Run neural network model
     model = build_model((X_train.shape[1],1))
-    model.fit(X_train, y_train, batch_size=32, epochs=100, verbose=0)
+    model.fit(X_train, y_train, batch_size=32, epochs=150, verbose=0)
 
     # Cache prediction values to array
     predictions = model.predict(X_val).flatten()
@@ -186,8 +187,12 @@ for fold in range(num_folds):
 print("\nCross Validation Results:\n")
 ann_r2 = r2_score(y, ann_predictions)
 mlr_r2 = r2_score(y, mlr_predictions)
+ann_mse = np.mean(np.square(y.values.flatten() - ann_predictions))
+mlr_mse = np.mean(np.square(y.values.flatten() - mlr_predictions))
 print("Neural Network R2 Score: {:.5f}".format(ann_r2))
 print("Linear Regression R2 Score: {:.5f}".format(mlr_r2))
+print("Neural Network MSE: {:.5f}".format(ann_mse))
+print("Linear Regression MSE: {:.5f}".format(mlr_mse))
 
 # Store cross validation results in DataFrame
 cv_results = pd.DataFrame([ann_predictions, mlr_predictions, y.values.flatten()], index=["ANN", "MLR", "TRUE"], columns=X.index).T
@@ -211,8 +216,8 @@ g1.add_line(plt.Line2D([0,1],[0,1], color="black", lw=1));
 g2.add_line(plt.Line2D([0,1],[0,1], color="black", lw=1));
 g1.set_ylim(0,1); g1.set_xlim(0,1);
 g2.set_ylim(0,1); g2.set_xlim(0,1);
-g1.annotate(r"R$^2$ = {:.2f}".format(ann_r2), (0.6,0.91), fontsize=15);
-g2.annotate(r"R$^2$ = {:.2f}".format(mlr_r2), (0.6,0.91), fontsize=15);
+g1.annotate(r"MSE = {:.4f}".format(ann_mse), (0.5,0.91), fontsize=15);
+g2.annotate(r"MSE = {:.4f}".format(mlr_mse), (0.5,0.91), fontsize=15);
 g1.legend(loc='center left', bbox_to_anchor=(0.08, 1.03), fontsize=8, ncol=3, handles = g1.get_legend_handles_labels()[0][1:], labels=("<10% error", "10%-25% error", ">25% error"), handletextpad = 0, frameon=False);
 g2.legend(loc='center left', bbox_to_anchor=(0.08, 1.03), fontsize=8, ncol=3, handles = g2.get_legend_handles_labels()[0][1:], labels=("<10% error", "10%-25% error", ">25% error"), handletextpad = 0, frameon=False);
 g1.set_xlabel(r"Actual Methane Production Rate (L–CH$_4$/L$ _R$–Day)", fontsize=11)
