@@ -13,7 +13,7 @@ Specify the output mode of demo as a boolean: `python demo.py --file_output FILE
 
 Due to the stochastic nature of neural networks, the results of the demo will vary. The results of a sample run are shown below:
 
-![Demo Results](Demo/Demo_Plot.png)
+![Demo Results](demo/demo_plot.png)
 
 # Credits
 Author: Thomas Florian @thomasflorian @ [Ye's MLIP Lab]
