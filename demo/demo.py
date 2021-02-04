@@ -40,7 +40,7 @@ if tf.__version__[0] != "1.12.0":
 # Select output
 if opt.file_output:
     orig_stdout = sys.stdout
-    f = open('Demo_Results.txt', 'w')
+    f = open('demo_results.txt', 'w')
     sys.stdout = f
 
 '''
@@ -226,7 +226,7 @@ g1.set_ylabel(r"Predicted Methane Production Rate (L–CH$_4$/L$ _R$–Day)", fo
 g1.set_title("{} Feature Deep Neural Network".format(num_features), fontsize=13, pad=30)
 g2.set_title("{} Feature Multiple Linear Regression".format(num_features), fontsize=13, pad=30)
 g1.grid(); g2.grid();
-fig.savefig("Demo_Plot", edgecolor=fig.get_edgecolor());
+fig.savefig("demo_plot", edgecolor=fig.get_edgecolor());
 plt.show();
 
 # Reset output

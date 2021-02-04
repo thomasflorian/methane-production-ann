@@ -1,905 +1,907 @@
 
 The loaded dataset has 149 samples and 489 features, and
-10 features will be selected in the 149-fold cross validation.
+489 features will be selected in the 149-fold cross validation.
 
 ... Running cross validation:
 
 --------[1/149]--------
 Validation Sample: AK1
-ANN Prediction: 0.40476
-MLR Prediction: 0.39093
+ANN Prediction: 0.37678
+MLR Prediction: 0.26572
 Ground Truth: 0.31672
 
 --------[2/149]--------
 Validation Sample: AK2
-ANN Prediction: 0.48833
-MLR Prediction: 0.40913
+ANN Prediction: 0.30053
+MLR Prediction: 0.33162
 Ground Truth: 0.33099
 
 --------[3/149]--------
 Validation Sample: AK3
-ANN Prediction: 0.40234
-MLR Prediction: 0.40421
+ANN Prediction: 0.31055
+MLR Prediction: 0.33484
 Ground Truth: 0.38757
 
 --------[4/149]--------
 Validation Sample: AL1
-ANN Prediction: 0.50698
-MLR Prediction: 0.35312
+ANN Prediction: 0.42661
+MLR Prediction: 0.56170
 Ground Truth: 0.42757
 
 --------[5/149]--------
 Validation Sample: AL2
-ANN Prediction: 0.53566
-MLR Prediction: 0.31189
+ANN Prediction: 0.39967
+MLR Prediction: 0.58472
 Ground Truth: 0.48538
 
 --------[6/149]--------
 Validation Sample: AL3
-ANN Prediction: 0.46516
-MLR Prediction: 0.35108
+ANN Prediction: 0.49850
+MLR Prediction: 0.38612
 Ground Truth: 0.54400
 
 --------[7/149]--------
 Validation Sample: AR1
-ANN Prediction: 0.19209
-MLR Prediction: 0.31056
+ANN Prediction: 0.23601
+MLR Prediction: 0.07705
 Ground Truth: 0.24045
 
 --------[8/149]--------
 Validation Sample: AR2
-ANN Prediction: 0.16321
-MLR Prediction: 0.27250
+ANN Prediction: 0.29454
+MLR Prediction: 0.53915
 Ground Truth: 0.23639
 
 --------[9/149]--------
 Validation Sample: AR3
-ANN Prediction: 0.19692
-MLR Prediction: 0.24094
+ANN Prediction: 0.26033
+MLR Prediction: -0.34723
 Ground Truth: 0.27470
 
 --------[10/149]--------
 Validation Sample: AZ1
-ANN Prediction: 0.43134
-MLR Prediction: 0.43244
+ANN Prediction: 0.36830
+MLR Prediction: 2.44398
 Ground Truth: 0.50287
 
 --------[11/149]--------
 Validation Sample: AZ2
-ANN Prediction: 0.38357
-MLR Prediction: 0.37939
+ANN Prediction: 0.40649
+MLR Prediction: -0.10201
 Ground Truth: 0.39622
 
 --------[12/149]--------
 Validation Sample: AZ3
-ANN Prediction: 0.35974
-MLR Prediction: 0.22563
+ANN Prediction: 0.26447
+MLR Prediction: 0.46994
 Ground Truth: 0.34892
 
 --------[13/149]--------
 Validation Sample: CA1
-ANN Prediction: 0.62419
-MLR Prediction: 0.43661
+ANN Prediction: 0.63070
+MLR Prediction: 0.56093
 Ground Truth: 0.65017
 
 --------[14/149]--------
 Validation Sample: CA2
-ANN Prediction: 0.51841
-MLR Prediction: 0.56260
+ANN Prediction: 0.64451
+MLR Prediction: 0.41879
 Ground Truth: 0.73078
 
 --------[15/149]--------
 Validation Sample: CA3
-ANN Prediction: 0.58539
-MLR Prediction: 0.48837
+ANN Prediction: 0.56502
+MLR Prediction: 1.00455
 Ground Truth: 0.65514
 
 --------[16/149]--------
 Validation Sample: CO1
-ANN Prediction: 0.53730
-MLR Prediction: 0.65317
+ANN Prediction: 0.51676
+MLR Prediction: -0.76075
 Ground Truth: 0.62999
 
 --------[17/149]--------
 Validation Sample: CO2
-ANN Prediction: 0.54568
-MLR Prediction: 0.66398
+ANN Prediction: 0.56499
+MLR Prediction: 0.47371
 Ground Truth: 0.59952
 
 --------[18/149]--------
 Validation Sample: CO3
-ANN Prediction: 0.51752
-MLR Prediction: 0.58024
+ANN Prediction: 0.56909
+MLR Prediction: 0.39151
 Ground Truth: 0.48492
 
 --------[19/149]--------
 Validation Sample: CT1
-ANN Prediction: 0.18066
-MLR Prediction: 0.38337
+ANN Prediction: 0.35407
+MLR Prediction: 0.46126
 Ground Truth: 0.17025
 
 --------[20/149]--------
 Validation Sample: CT2
-ANN Prediction: 0.32406
-MLR Prediction: 0.35374
+ANN Prediction: 0.24817
+MLR Prediction: 0.09328
 Ground Truth: 0.28435
 
 --------[21/149]--------
 Validation Sample: CT3
-ANN Prediction: 0.26947
-MLR Prediction: 0.35501
+ANN Prediction: 0.19274
+MLR Prediction: -0.11152
 Ground Truth: 0.47753
 
 --------[22/149]--------
 Validation Sample: DE1
-ANN Prediction: 0.18527
-MLR Prediction: 0.24781
+ANN Prediction: 0.18074
+MLR Prediction: 0.30732
 Ground Truth: 0.15380
 
 --------[23/149]--------
 Validation Sample: DE2
-ANN Prediction: 0.33414
-MLR Prediction: 0.30058
+ANN Prediction: 0.31658
+MLR Prediction: 0.10840
 Ground Truth: 0.15807
 
 --------[24/149]--------
 Validation Sample: DE3
-ANN Prediction: 0.30504
-MLR Prediction: 0.26884
+ANN Prediction: 0.14326
+MLR Prediction: 0.19165
 Ground Truth: 0.29101
 
 --------[25/149]--------
 Validation Sample: FL1
-ANN Prediction: 0.56380
-MLR Prediction: 0.78312
+ANN Prediction: 0.68777
+MLR Prediction: 0.56452
 Ground Truth: 0.68884
 
 --------[26/149]--------
 Validation Sample: FL2
-ANN Prediction: 0.57709
-MLR Prediction: 0.74870
+ANN Prediction: 0.59701
+MLR Prediction: 0.88022
 Ground Truth: 0.66565
 
 --------[27/149]--------
 Validation Sample: FL3
-ANN Prediction: 0.56753
-MLR Prediction: 0.93595
+ANN Prediction: 0.58511
+MLR Prediction: 0.21143
 Ground Truth: 0.67204
 
 --------[28/149]--------
 Validation Sample: GA1
-ANN Prediction: 0.21304
-MLR Prediction: 0.36437
+ANN Prediction: 0.16535
+MLR Prediction: 0.12630
 Ground Truth: 0.31593
 
 --------[29/149]--------
 Validation Sample: GA2
-ANN Prediction: 0.26098
-MLR Prediction: 0.35892
+ANN Prediction: 0.18986
+MLR Prediction: 0.37186
 Ground Truth: 0.13469
 
 --------[30/149]--------
 Validation Sample: GA3
-ANN Prediction: 0.15210
-MLR Prediction: 0.25883
+ANN Prediction: 0.25771
+MLR Prediction: -0.16855
 Ground Truth: 0.12405
 
 --------[31/149]--------
 Validation Sample: HI1
-ANN Prediction: 0.45567
-MLR Prediction: 0.52678
+ANN Prediction: 0.45402
+MLR Prediction: 0.41803
 Ground Truth: 0.38496
 
 --------[32/149]--------
 Validation Sample: HI2
-ANN Prediction: 0.34784
-MLR Prediction: 0.54760
+ANN Prediction: 0.36165
+MLR Prediction: 0.38162
 Ground Truth: 0.61104
 
 --------[33/149]--------
 Validation Sample: HI3
-ANN Prediction: 0.39869
-MLR Prediction: 0.45866
+ANN Prediction: 0.54060
+MLR Prediction: 0.57062
 Ground Truth: 0.35898
 
 --------[34/149]--------
 Validation Sample: IA1
-ANN Prediction: 0.51433
-MLR Prediction: 0.51759
+ANN Prediction: 0.48645
+MLR Prediction: 0.12844
 Ground Truth: 0.56523
 
 --------[35/149]--------
 Validation Sample: IA2
-ANN Prediction: 0.36197
-MLR Prediction: 0.50118
+ANN Prediction: 0.55870
+MLR Prediction: 1.07406
 Ground Truth: 0.57871
 
 --------[36/149]--------
 Validation Sample: IA3
-ANN Prediction: 0.55884
-MLR Prediction: 0.44552
+ANN Prediction: 0.47852
+MLR Prediction: 0.61349
 Ground Truth: 0.61517
 
 --------[37/149]--------
 Validation Sample: ID1
-ANN Prediction: 0.41752
-MLR Prediction: 0.29564
+ANN Prediction: 0.30693
+MLR Prediction: 0.32612
 Ground Truth: 0.29695
 
 --------[38/149]--------
 Validation Sample: ID2
-ANN Prediction: 0.45833
-MLR Prediction: 0.26456
+ANN Prediction: 0.37880
+MLR Prediction: 0.46187
 Ground Truth: 0.33110
 
 --------[39/149]--------
 Validation Sample: ID3
-ANN Prediction: 0.48090
-MLR Prediction: 0.31939
+ANN Prediction: 0.31843
+MLR Prediction: -0.01229
 Ground Truth: 0.31706
 
 --------[40/149]--------
 Validation Sample: IL1
-ANN Prediction: 0.60170
-MLR Prediction: 0.49544
+ANN Prediction: 0.53807
+MLR Prediction: 0.89137
 Ground Truth: 0.62945
 
 --------[41/149]--------
 Validation Sample: IL2
-ANN Prediction: 0.68926
-MLR Prediction: 0.55360
+ANN Prediction: 0.64872
+MLR Prediction: 0.66592
 Ground Truth: 0.66592
 
 --------[42/149]--------
 Validation Sample: IL3
-ANN Prediction: 0.66955
-MLR Prediction: 0.55360
+ANN Prediction: 0.62904
+MLR Prediction: 0.66592
 Ground Truth: 0.66592
 
 --------[43/149]--------
 Validation Sample: IN1
-ANN Prediction: 0.43718
-MLR Prediction: 0.30700
+ANN Prediction: 0.51697
+MLR Prediction: 0.06436
 Ground Truth: 0.56352
 
 --------[44/149]--------
 Validation Sample: IN2
-ANN Prediction: 0.31623
-MLR Prediction: 0.47540
+ANN Prediction: 0.42339
+MLR Prediction: 0.12781
 Ground Truth: 0.48899
 
 --------[45/149]--------
 Validation Sample: IN3
-ANN Prediction: 0.46823
-MLR Prediction: 0.40146
+ANN Prediction: 0.50676
+MLR Prediction: 2.65367
 Ground Truth: 0.51719
 
 --------[46/149]--------
 Validation Sample: KS1
-ANN Prediction: 0.53388
-MLR Prediction: 0.75838
+ANN Prediction: 0.79247
+MLR Prediction: 1.08875
 Ground Truth: 0.98103
 
 --------[47/149]--------
 Validation Sample: KS2
-ANN Prediction: 0.62776
-MLR Prediction: 0.78048
+ANN Prediction: 0.69787
+MLR Prediction: 0.59322
 Ground Truth: 0.92046
 
 --------[48/149]--------
 Validation Sample: KS3
-ANN Prediction: 0.65454
-MLR Prediction: 0.61155
+ANN Prediction: 0.58886
+MLR Prediction: 0.64283
 Ground Truth: 0.55529
 
 --------[49/149]--------
 Validation Sample: KY1
-ANN Prediction: 0.54130
-MLR Prediction: 0.53626
+ANN Prediction: 0.53101
+MLR Prediction: 0.31648
 Ground Truth: 0.69009
 
 --------[50/149]--------
 Validation Sample: KY2
-ANN Prediction: 0.59699
-MLR Prediction: 0.62999
+ANN Prediction: 0.70508
+MLR Prediction: 0.74899
 Ground Truth: 0.56733
 
 --------[51/149]--------
 Validation Sample: KY3
-ANN Prediction: 0.65679
-MLR Prediction: 0.62023
+ANN Prediction: 0.63422
+MLR Prediction: 0.38031
 Ground Truth: 0.61156
 
 --------[52/149]--------
 Validation Sample: LA1
-ANN Prediction: 0.29075
-MLR Prediction: 0.25231
+ANN Prediction: 0.32756
+MLR Prediction: 0.54792
 Ground Truth: 0.20170
 
 --------[53/149]--------
 Validation Sample: LA2
-ANN Prediction: 0.35597
-MLR Prediction: 0.19745
+ANN Prediction: 0.37622
+MLR Prediction: 0.56056
 Ground Truth: 0.43283
 
 --------[54/149]--------
 Validation Sample: LA3
-ANN Prediction: 0.29360
-MLR Prediction: 0.23695
+ANN Prediction: 0.29843
+MLR Prediction: 0.22902
 Ground Truth: 0.56568
 
 --------[55/149]--------
 Validation Sample: MA1
-ANN Prediction: 0.25776
-MLR Prediction: 0.31493
+ANN Prediction: 0.11174
+MLR Prediction: 0.09355
 Ground Truth: 0.34622
 
 --------[56/149]--------
 Validation Sample: MA2
-ANN Prediction: 0.24866
-MLR Prediction: 0.34148
+ANN Prediction: 0.24382
+MLR Prediction: 0.56391
 Ground Truth: 0.13398
 
 --------[57/149]--------
 Validation Sample: MA3
-ANN Prediction: 0.27161
-MLR Prediction: 0.32171
+ANN Prediction: 0.25014
+MLR Prediction: 0.22194
 Ground Truth: 0.14723
 
 --------[58/149]--------
 Validation Sample: MD1
-ANN Prediction: 0.66927
-MLR Prediction: 0.41668
+ANN Prediction: 0.45352
+MLR Prediction: 0.70444
 Ground Truth: 0.53501
 
 --------[59/149]--------
 Validation Sample: MD2
-ANN Prediction: 0.55986
-MLR Prediction: 0.38560
+ANN Prediction: 0.55881
+MLR Prediction: 0.77865
 Ground Truth: 0.60716
 
 --------[60/149]--------
 Validation Sample: MD3
-ANN Prediction: 0.52420
-MLR Prediction: 0.39821
+ANN Prediction: 0.55970
+MLR Prediction: 0.15066
 Ground Truth: 0.59686
 
 --------[61/149]--------
 Validation Sample: ME1
-ANN Prediction: 0.29796
-MLR Prediction: 0.30866
+ANN Prediction: 0.16929
+MLR Prediction: 1.12158
 Ground Truth: 0.16330
 
 --------[62/149]--------
 Validation Sample: ME2
-ANN Prediction: 0.28542
-MLR Prediction: 0.27566
+ANN Prediction: 0.12876
+MLR Prediction: -0.45139
 Ground Truth: 0.15172
 
 --------[63/149]--------
 Validation Sample: ME3
-ANN Prediction: 0.19727
-MLR Prediction: 0.23442
+ANN Prediction: 0.13726
+MLR Prediction: 0.24880
 Ground Truth: 0.16188
 
 --------[64/149]--------
 Validation Sample: MI1
-ANN Prediction: 0.30894
-MLR Prediction: 0.26223
+ANN Prediction: 0.12481
+MLR Prediction: -1.65943
 Ground Truth: 0.22511
 
 --------[65/149]--------
 Validation Sample: MI2
-ANN Prediction: 0.27037
-MLR Prediction: 0.27904
+ANN Prediction: 0.28413
+MLR Prediction: 0.42757
 Ground Truth: 0.23377
 
 --------[66/149]--------
 Validation Sample: MI3
-ANN Prediction: 0.26833
-MLR Prediction: 0.26922
+ANN Prediction: 0.21908
+MLR Prediction: 0.17563
 Ground Truth: 0.22528
 
 --------[67/149]--------
 Validation Sample: MN1
-ANN Prediction: 0.28250
-MLR Prediction: 0.23900
+ANN Prediction: 0.27178
+MLR Prediction: 0.29232
 Ground Truth: 0.24962
 
 --------[68/149]--------
 Validation Sample: MN2
-ANN Prediction: 0.25416
-MLR Prediction: 0.23825
+ANN Prediction: 0.24803
+MLR Prediction: 0.13942
 Ground Truth: 0.25809
 
 --------[69/149]--------
 Validation Sample: MN3
-ANN Prediction: 0.27077
-MLR Prediction: 0.22368
+ANN Prediction: 0.20331
+MLR Prediction: 0.42235
 Ground Truth: 0.25419
 
 --------[70/149]--------
 Validation Sample: MO1
-ANN Prediction: 0.31476
-MLR Prediction: 0.24660
+ANN Prediction: 0.28452
+MLR Prediction: 0.59047
 Ground Truth: 0.36793
 
 --------[71/149]--------
 Validation Sample: MO2
-ANN Prediction: 0.25698
-MLR Prediction: 0.29443
+ANN Prediction: 0.34165
+MLR Prediction: 0.36017
 Ground Truth: 0.33174
 
 --------[72/149]--------
 Validation Sample: MO3
-ANN Prediction: 0.27745
-MLR Prediction: 0.28687
+ANN Prediction: 0.29499
+MLR Prediction: 0.23963
 Ground Truth: 0.47130
 
 --------[73/149]--------
 Validation Sample: MS1
-ANN Prediction: 0.23446
-MLR Prediction: 0.37543
+ANN Prediction: 0.46207
+MLR Prediction: 0.53123
 Ground Truth: 0.53917
 
 --------[74/149]--------
 Validation Sample: MS2
-ANN Prediction: 0.42103
-MLR Prediction: 0.40558
+ANN Prediction: 0.49470
+MLR Prediction: 0.16377
 Ground Truth: 0.46541
 
 --------[75/149]--------
 Validation Sample: MS3
-ANN Prediction: 0.43374
-MLR Prediction: 0.45431
+ANN Prediction: 0.43958
+MLR Prediction: 0.79681
 Ground Truth: 0.44445
 
 --------[76/149]--------
 Validation Sample: MT1
-ANN Prediction: 0.55345
-MLR Prediction: 0.65373
+ANN Prediction: 0.56116
+MLR Prediction: 0.44402
 Ground Truth: 0.58968
 
 --------[77/149]--------
 Validation Sample: MT2
-ANN Prediction: 0.67202
-MLR Prediction: 0.52266
+ANN Prediction: 0.55564
+MLR Prediction: 0.27884
 Ground Truth: 0.70439
 
 --------[78/149]--------
 Validation Sample: MT3
-ANN Prediction: 0.53645
-MLR Prediction: 0.55875
+ANN Prediction: 0.67160
+MLR Prediction: 0.61063
 Ground Truth: 0.55556
 
 --------[79/149]--------
 Validation Sample: NC1
-ANN Prediction: 0.46503
-MLR Prediction: 0.42672
+ANN Prediction: 0.56494
+MLR Prediction: 0.53181
 Ground Truth: 0.36568
 
 --------[80/149]--------
 Validation Sample: NC2
-ANN Prediction: 0.36452
-MLR Prediction: 0.37503
+ANN Prediction: 0.19440
+MLR Prediction: 0.55312
 Ground Truth: 0.20619
 
 --------[81/149]--------
 Validation Sample: NC3
-ANN Prediction: 0.59846
-MLR Prediction: 0.47559
+ANN Prediction: 0.40367
+MLR Prediction: 0.59917
 Ground Truth: 0.63555
 
 --------[82/149]--------
 Validation Sample: ND2
-ANN Prediction: 0.54791
-MLR Prediction: 0.55966
+ANN Prediction: 0.45646
+MLR Prediction: 0.47402
 Ground Truth: 0.55466
 
 --------[83/149]--------
 Validation Sample: ND3
-ANN Prediction: 0.54559
-MLR Prediction: 0.52996
+ANN Prediction: 0.60470
+MLR Prediction: 0.82913
 Ground Truth: 0.51901
 
 --------[84/149]--------
 Validation Sample: NE1
-ANN Prediction: 0.23439
-MLR Prediction: 0.41776
+ANN Prediction: 0.36212
+MLR Prediction: 0.51342
 Ground Truth: 0.42644
 
 --------[85/149]--------
 Validation Sample: NE2
-ANN Prediction: 0.27464
-MLR Prediction: 0.36852
+ANN Prediction: 0.31882
+MLR Prediction: 0.31435
 Ground Truth: 0.46257
 
 --------[86/149]--------
 Validation Sample: NE3
-ANN Prediction: 0.34103
-MLR Prediction: 0.39545
+ANN Prediction: 0.32401
+MLR Prediction: 0.16681
 Ground Truth: 0.36243
 
 --------[87/149]--------
 Validation Sample: NH1
-ANN Prediction: 0.47751
-MLR Prediction: 0.19486
+ANN Prediction: 0.12796
+MLR Prediction: 0.41903
 Ground Truth: 0.15308
 
 --------[88/149]--------
 Validation Sample: NH2
-ANN Prediction: 0.41062
-MLR Prediction: 0.40146
+ANN Prediction: 0.25255
+MLR Prediction: 0.24879
 Ground Truth: 0.15227
 
 --------[89/149]--------
 Validation Sample: NH3
-ANN Prediction: 0.19955
-MLR Prediction: 0.20887
+ANN Prediction: 0.16262
+MLR Prediction: 0.13563
 Ground Truth: 0.13592
 
 --------[90/149]--------
 Validation Sample: NJ1
-ANN Prediction: 0.17553
-MLR Prediction: 0.09554
+ANN Prediction: 0.15641
+MLR Prediction: 0.29730
 Ground Truth: 0.11724
 
 --------[91/149]--------
 Validation Sample: NJ2
-ANN Prediction: 0.10986
-MLR Prediction: 0.04735
+ANN Prediction: 0.12791
+MLR Prediction: -0.11978
 Ground Truth: 0.13339
 
 --------[92/149]--------
 Validation Sample: NJ3
-ANN Prediction: 0.14056
-MLR Prediction: 0.06063
+ANN Prediction: 0.16928
+MLR Prediction: 0.03509
 Ground Truth: 0.10952
 
 --------[93/149]--------
 Validation Sample: NM1
-ANN Prediction: 0.42019
-MLR Prediction: 0.69580
+ANN Prediction: 0.40170
+MLR Prediction: -0.02653
 Ground Truth: 0.49603
 
 --------[94/149]--------
 Validation Sample: NM2
-ANN Prediction: 0.60239
-MLR Prediction: 0.54819
+ANN Prediction: 0.47672
+MLR Prediction: 0.47555
 Ground Truth: 0.57972
 
 --------[95/149]--------
 Validation Sample: NM3
-ANN Prediction: 0.37245
-MLR Prediction: 0.56697
+ANN Prediction: 0.47918
+MLR Prediction: 1.63570
 Ground Truth: 0.62772
 
 --------[96/149]--------
 Validation Sample: NV1
-ANN Prediction: 0.24273
-MLR Prediction: 0.24538
+ANN Prediction: 0.05110
+MLR Prediction: 0.43819
 Ground Truth: 0.13441
 
 --------[97/149]--------
 Validation Sample: NV2
-ANN Prediction: 0.17757
-MLR Prediction: 0.21030
+ANN Prediction: 0.11372
+MLR Prediction: 0.27261
 Ground Truth: 0.12635
 
 --------[98/149]--------
 Validation Sample: NV3
-ANN Prediction: 0.25949
-MLR Prediction: 0.21716
+ANN Prediction: 0.16028
+MLR Prediction: -0.02173
 Ground Truth: 0.13324
 
 --------[99/149]--------
 Validation Sample: NY1
-ANN Prediction: 0.26848
-MLR Prediction: 0.26186
+ANN Prediction: 0.15360
+MLR Prediction: 0.00761
 Ground Truth: 0.16612
 
 --------[100/149]--------
 Validation Sample: NY2
-ANN Prediction: 0.22006
-MLR Prediction: 0.21916
+ANN Prediction: 0.15121
+MLR Prediction: 0.14001
 Ground Truth: 0.16253
 
 --------[101/149]--------
 Validation Sample: NY3
-ANN Prediction: 0.12259
-MLR Prediction: 0.24549
+ANN Prediction: 0.19383
+MLR Prediction: 0.37162
 Ground Truth: 0.17667
 
 --------[102/149]--------
 Validation Sample: OH1
-ANN Prediction: 0.35083
-MLR Prediction: 0.40472
+ANN Prediction: 0.43047
+MLR Prediction: 0.36750
 Ground Truth: 0.40976
 
 --------[103/149]--------
 Validation Sample: OH2
-ANN Prediction: 0.36980
-MLR Prediction: 0.40740
+ANN Prediction: 0.40620
+MLR Prediction: 0.37949
 Ground Truth: 0.38739
 
 --------[104/149]--------
 Validation Sample: OH3
-ANN Prediction: 0.50116
-MLR Prediction: 0.42515
+ANN Prediction: 0.44287
+MLR Prediction: 0.44574
 Ground Truth: 0.37690
 
 --------[105/149]--------
 Validation Sample: OK1
-ANN Prediction: 0.69174
-MLR Prediction: 0.72999
+ANN Prediction: 0.57449
+MLR Prediction: 0.64538
 Ground Truth: 0.65596
 
 --------[106/149]--------
 Validation Sample: OK2
-ANN Prediction: 0.65331
-MLR Prediction: 0.62257
+ANN Prediction: 0.60629
+MLR Prediction: 0.73791
 Ground Truth: 0.72813
 
 --------[107/149]--------
 Validation Sample: OK3
-ANN Prediction: 0.57673
-MLR Prediction: 0.63533
+ANN Prediction: 0.82395
+MLR Prediction: 0.72879
 Ground Truth: 0.80593
 
 --------[108/149]--------
 Validation Sample: OR1
-ANN Prediction: 0.47771
-MLR Prediction: 0.39567
+ANN Prediction: 0.50105
+MLR Prediction: 0.82210
 Ground Truth: 0.25823
 
 --------[109/149]--------
 Validation Sample: OR2
-ANN Prediction: 0.33329
-MLR Prediction: 0.37237
+ANN Prediction: 0.36158
+MLR Prediction: 0.14827
 Ground Truth: 0.57914
 
 --------[110/149]--------
 Validation Sample: OR3
-ANN Prediction: 0.45590
-MLR Prediction: 0.36001
+ANN Prediction: 0.37955
+MLR Prediction: 1.17222
 Ground Truth: 0.41168
 
 --------[111/149]--------
 Validation Sample: PA1
-ANN Prediction: 0.49440
-MLR Prediction: 0.46112
+ANN Prediction: 0.55140
+MLR Prediction: 0.28897
 Ground Truth: 0.62576
 
 --------[112/149]--------
 Validation Sample: PA2
-ANN Prediction: 0.57700
-MLR Prediction: 0.45630
+ANN Prediction: 0.48138
+MLR Prediction: 0.18758
 Ground Truth: 0.52358
 
 --------[113/149]--------
 Validation Sample: PA3
-ANN Prediction: 0.56155
-MLR Prediction: 0.53366
+ANN Prediction: 0.62361
+MLR Prediction: 1.04402
 Ground Truth: 0.70628
 
 --------[114/149]--------
 Validation Sample: SC1
-ANN Prediction: 0.70764
-MLR Prediction: 0.67452
+ANN Prediction: 0.66818
+MLR Prediction: 0.62309
 Ground Truth: 0.50021
 
 --------[115/149]--------
 Validation Sample: SC2
-ANN Prediction: 0.58340
-MLR Prediction: 0.68218
+ANN Prediction: 0.55862
+MLR Prediction: 0.68233
 Ground Truth: 0.51029
 
 --------[116/149]--------
 Validation Sample: SC3
-ANN Prediction: 0.61146
-MLR Prediction: 0.66296
+ANN Prediction: 0.51150
+MLR Prediction: 0.50145
 Ground Truth: 0.67878
 
 --------[117/149]--------
 Validation Sample: SD1
-ANN Prediction: 0.24124
-MLR Prediction: 0.33925
+ANN Prediction: 0.14337
+MLR Prediction: 0.20307
 Ground Truth: 0.20401
 
 --------[118/149]--------
 Validation Sample: SD2
-ANN Prediction: 0.32088
-MLR Prediction: 0.33993
+ANN Prediction: 0.16209
+MLR Prediction: 0.33436
 Ground Truth: 0.16672
 
 --------[119/149]--------
 Validation Sample: SD3
-ANN Prediction: 0.19537
-MLR Prediction: 0.34968
+ANN Prediction: 0.18143
+MLR Prediction: -0.28338
 Ground Truth: 0.24879
 
 --------[120/149]--------
 Validation Sample: TNS1
-ANN Prediction: 0.47919
-MLR Prediction: 0.55704
+ANN Prediction: 0.44102
+MLR Prediction: 0.63265
 Ground Truth: 0.47961
 
 --------[121/149]--------
 Validation Sample: TNS2
-ANN Prediction: 0.56408
-MLR Prediction: 0.71319
+ANN Prediction: 0.67134
+MLR Prediction: 1.62408
 Ground Truth: 0.62972
 
 --------[122/149]--------
 Validation Sample: TNS3
-ANN Prediction: 0.60606
-MLR Prediction: 0.59768
+ANN Prediction: 0.56901
+MLR Prediction: 0.00448
 Ground Truth: 0.63224
 
 --------[123/149]--------
 Validation Sample: TX1
-ANN Prediction: 0.49904
-MLR Prediction: 0.54600
+ANN Prediction: 0.53387
+MLR Prediction: 0.80029
 Ground Truth: 0.50011
 
 --------[124/149]--------
 Validation Sample: TX2
-ANN Prediction: 0.62694
-MLR Prediction: 0.47777
+ANN Prediction: 0.42751
+MLR Prediction: -0.12677
 Ground Truth: 0.35032
 
 --------[125/149]--------
 Validation Sample: TX3
-ANN Prediction: 0.53978
-MLR Prediction: 0.45275
+ANN Prediction: 0.41715
+MLR Prediction: 0.67633
 Ground Truth: 0.45191
 
 --------[126/149]--------
 Validation Sample: UT1
-ANN Prediction: 0.10407
-MLR Prediction: 0.00682
+ANN Prediction: 0.08594
+MLR Prediction: -0.74203
 Ground Truth: 0.09338
 
 --------[127/149]--------
 Validation Sample: UT2
-ANN Prediction: 0.12277
-MLR Prediction: 0.19521
+ANN Prediction: 0.05483
+MLR Prediction: 0.23673
 Ground Truth: 0.10165
 
 --------[128/149]--------
 Validation Sample: UT3
-ANN Prediction: 0.14182
-MLR Prediction: 0.16916
+ANN Prediction: 0.10858
+MLR Prediction: 0.36220
 Ground Truth: 0.11288
 
 --------[129/149]--------
 Validation Sample: VA1
-ANN Prediction: 0.21964
-MLR Prediction: 0.07588
+ANN Prediction: 0.07806
+MLR Prediction: 0.10115
 Ground Truth: 0.25457
 
 --------[130/149]--------
 Validation Sample: VA2
-ANN Prediction: 0.26028
-MLR Prediction: 0.28349
+ANN Prediction: 0.23601
+MLR Prediction: 1.04028
 Ground Truth: 0.12598
 
 --------[131/149]--------
 Validation Sample: VA3
-ANN Prediction: 0.20927
-MLR Prediction: 0.15741
+ANN Prediction: 0.10652
+MLR Prediction: -0.15958
 Ground Truth: 0.12899
 
 --------[132/149]--------
 Validation Sample: VT1
-ANN Prediction: 0.43063
-MLR Prediction: 0.15785
+ANN Prediction: 0.27933
+MLR Prediction: 0.30964
 Ground Truth: 0.24528
 
 --------[133/149]--------
 Validation Sample: VT2
-ANN Prediction: 0.33430
-MLR Prediction: 0.34676
+ANN Prediction: 0.42113
+MLR Prediction: 0.66060
 Ground Truth: 0.31450
 
 --------[134/149]--------
 Validation Sample: VT3
-ANN Prediction: 0.22082
-MLR Prediction: 0.23804
+ANN Prediction: 0.19595
+MLR Prediction: 0.12713
 Ground Truth: 0.26951
 
 --------[135/149]--------
 Validation Sample: WA1
-ANN Prediction: 0.56535
-MLR Prediction: 0.69676
+ANN Prediction: 0.55029
+MLR Prediction: 0.51442
 Ground Truth: 0.63178
 
 --------[136/149]--------
 Validation Sample: WA2
-ANN Prediction: 0.52520
-MLR Prediction: 0.58339
+ANN Prediction: 0.59295
+MLR Prediction: 0.58472
 Ground Truth: 0.56703
 
 --------[137/149]--------
 Validation Sample: WA3
-ANN Prediction: 0.51521
-MLR Prediction: 0.52162
+ANN Prediction: 0.55313
+MLR Prediction: 0.73938
 Ground Truth: 0.59201
 
 --------[138/149]--------
 Validation Sample: WI1
-ANN Prediction: 0.55087
-MLR Prediction: 0.50874
+ANN Prediction: 0.47301
+MLR Prediction: 0.37739
 Ground Truth: 0.38051
 
 --------[139/149]--------
 Validation Sample: WI2
-ANN Prediction: 0.49124
-MLR Prediction: 0.61154
+ANN Prediction: 0.59165
+MLR Prediction: 0.50412
 Ground Truth: 0.55578
 
 --------[140/149]--------
 Validation Sample: WI3
-ANN Prediction: 0.61697
-MLR Prediction: 0.62286
+ANN Prediction: 0.53063
+MLR Prediction: 0.66735
 Ground Truth: 0.50147
 
 --------[141/149]--------
 Validation Sample: WI4
-ANN Prediction: 0.64017
-MLR Prediction: 0.60666
+ANN Prediction: 0.53678
+MLR Prediction: 0.65998
 Ground Truth: 0.50947
 
 --------[142/149]--------
 Validation Sample: WI5
-ANN Prediction: 0.46292
-MLR Prediction: 0.61190
+ANN Prediction: 0.65793
+MLR Prediction: 1.18341
 Ground Truth: 0.56802
 
 --------[143/149]--------
 Validation Sample: WI6
-ANN Prediction: 0.68196
-MLR Prediction: 0.65988
+ANN Prediction: 0.61539
+MLR Prediction: 0.43507
 Ground Truth: 0.61930
 
 --------[144/149]--------
 Validation Sample: WV1
-ANN Prediction: 0.21127
-MLR Prediction: 0.30641
+ANN Prediction: 0.25424
+MLR Prediction: 0.48556
 Ground Truth: 0.22905
 
 --------[145/149]--------
 Validation Sample: WV2
-ANN Prediction: 0.18413
-MLR Prediction: 0.29076
+ANN Prediction: 0.20806
+MLR Prediction: -0.12168
 Ground Truth: 0.23272
 
 --------[146/149]--------
 Validation Sample: WV3
-ANN Prediction: 0.22671
-MLR Prediction: 0.33624
+ANN Prediction: 0.24883
+MLR Prediction: 0.38379
 Ground Truth: 0.19432
 
 --------[147/149]--------
 Validation Sample: WY1
-ANN Prediction: 0.15860
-MLR Prediction: 0.18064
+ANN Prediction: 0.19109
+MLR Prediction: -0.14502
 Ground Truth: 0.25582
 
 --------[148/149]--------
 Validation Sample: WY2
-ANN Prediction: 0.25069
-MLR Prediction: 0.24881
+ANN Prediction: 0.15639
+MLR Prediction: 0.25069
 Ground Truth: 0.31759
 
 --------[149/149]--------
 Validation Sample: WY3
-ANN Prediction: 0.25424
-MLR Prediction: 0.24861
+ANN Prediction: 0.27475
+MLR Prediction: 0.37603
 Ground Truth: 0.13101
 
 
 Cross Validation Results:
 
-Neural Network R2 Score: 0.63405
-Linear Regression R2 Score: 0.65437
+Neural Network R2 Score: 0.75672
+Linear Regression R2 Score: -3.79951
+Neural Network MSE: 0.00966
+Linear Regression MSE: 0.19055
